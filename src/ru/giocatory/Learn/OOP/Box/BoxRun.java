@@ -1,5 +1,7 @@
 package ru.giocatory.Learn.OOP.Box;
 
+import static ru.giocatory.Learn.OOP.Box.Box.howManyBoxesAreCreated;
+
 public class BoxRun {
     public static void main(String[] args) {
         // One Box
@@ -15,7 +17,6 @@ public class BoxRun {
         ////////////////////////////////////////////////////
 
 
-
         // Two Box
         Box twoBox = new Box(10, 20, 15);
         System.out.println("Box2:\nWidth-"+twoBox.getWidth()+"\nHeight-"+twoBox.getHeight()+
@@ -29,10 +30,11 @@ public class BoxRun {
         /////////////////////////////////////////////////////
 
 
-
         // use method from class Box
         System.out.println("Объем box1: "+oneBox.VolumeValue());
         System.out.println("Объем box2: "+twoBox.VolumeValue());
 
+        //Use static field in class Box
+        System.out.println("\nВсего было создано: "+howManyBoxesAreCreated+" Объекта.");
     }
 }

@@ -4,17 +4,20 @@ public class Box {
     private double width;
     private double height;
     private double depth;
+    public static int howManyBoxesAreCreated;
 
     // constructor
     Box (){
         width = 0;
         height = 0;
         depth = 0;
+        howManyBoxesAreCreated++;
     }
     Box (double width, double height, double depth){
         this.width = width;
         this.height = height;
         this.depth = depth;
+        howManyBoxesAreCreated++;
     }
     // GETTERS_AND_SETTERS
     public double getWidth() {
