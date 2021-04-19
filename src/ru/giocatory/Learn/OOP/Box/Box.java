@@ -19,6 +19,11 @@ public class Box {
         this.depth = depth;
         howManyBoxesAreCreated++;
     }
+    // create square
+    Box(double side){
+        width = height = depth = side;
+        howManyBoxesAreCreated++;
+    }
     // GETTERS_AND_SETTERS
     public double getWidth() {
         return width;

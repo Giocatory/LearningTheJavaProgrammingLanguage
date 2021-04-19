@@ -33,6 +33,12 @@ public class BoxRun {
         // use method from class Box
         System.out.println("Объем box1: "+oneBox.VolumeValue());
         System.out.println("Объем box2: "+twoBox.VolumeValue());
+        System.out.println();
+
+        // create square
+        Box square = new Box(20);
+        System.out.println("Квадрат со сторонами равными - "+square.getHeight());
+        System.out.println("Объем квадрата: "+square.VolumeValue());
 
         //Use static field in class Box
         System.out.println("\nВсего было создано: "+howManyBoxesAreCreated+" Объекта.");
