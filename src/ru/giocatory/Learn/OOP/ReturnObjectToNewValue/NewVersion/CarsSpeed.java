@@ -11,7 +11,7 @@ public class CarsSpeed {
         ChangeSpeed.incrementSpeedToTen(niva);
         System.out.println("Car:\nModel - "+niva.getMachine()+"\nMax speed - "+niva.getSpeed());
 
-        // ReCreate object from class NewCar...
+        // Re Create object from class NewCar...
         niva = ChangeSpeed.incrementByTen(niva);
         System.out.println("Car:\nModel - "+niva.getMachine()+"\nMax speed - "+niva.getSpeed());
     }
