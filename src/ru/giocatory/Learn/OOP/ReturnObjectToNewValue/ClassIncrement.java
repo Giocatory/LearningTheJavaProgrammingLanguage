@@ -1,4 +1,4 @@
-package ru.giocatory.Learn.OOP.ReturnObject;
+package ru.giocatory.Learn.OOP.ReturnObjectToNewValue;
 
 public class ClassIncrement {
     private final int a;
