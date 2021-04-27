@@ -7,6 +7,7 @@ public class PrintArray {
         for (int i = 0; i < 10; i++){
             obj.values[i] = i;
         }
+        // Use recursive method
         obj.printArray(10);
     }
 }
