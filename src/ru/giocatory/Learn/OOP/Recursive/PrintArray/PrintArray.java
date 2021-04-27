@@ -7,7 +7,6 @@ public class PrintArray {
         for (int i = 0; i < 10; i++){
             obj.values[i] = i;
         }
-
         obj.printArray(10);
     }
 }
