@@ -1,4 +1,4 @@
-package ru.giocatory.Learn.OOP.RecursiveFunction;
+package ru.giocatory.Learn.OOP.Recursive.Factorial;
 
 public class Factorial {
 
