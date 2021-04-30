@@ -11,12 +11,12 @@ public class TestStack {
         for (int i = 10; i < 20; i++){
             myStackTwo.push(i);
         }
-        // extract this numbers from stack
+        // extract this numbers from stackOne
         System.out.println("Stack in \"myStackOne\":");
         for (int i = 0; i < 10; i++){
             System.out.println(myStackOne.pop());
         }
-
+        // extract this numbers from stackTwo
         System.out.println("Stack in \"myStackTwo\":");
         for (int i = 0; i < 10; i++){
             System.out.println(myStackTwo.pop());
