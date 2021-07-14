@@ -5,7 +5,7 @@ public class PrintArray {
         RecArray obj = new RecArray(10);
 
         for (int i = 0; i < 10; i++){
-            obj.values[i] = i;
+            obj.getValues()[i] = i;
         }
         // Use recursive method
         obj.printArray(10);

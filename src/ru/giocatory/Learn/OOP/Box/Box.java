@@ -20,7 +20,7 @@ public class Box {
         howManyBoxesAreCreated++;
     }
     // create square
-    Box(double side){
+    Box (double side){
         width = height = depth = side;
         howManyBoxesAreCreated++;
     }

@@ -1,7 +1,10 @@
 package ru.giocatory.Learn.OOP.Recursive.PrintArray;
 
 public class RecArray {
-    int[] values;
+    private int[] values;
+    public int[] getValues() {
+        return values;
+    }
 
     RecArray(int i){
         values = new int[i];
