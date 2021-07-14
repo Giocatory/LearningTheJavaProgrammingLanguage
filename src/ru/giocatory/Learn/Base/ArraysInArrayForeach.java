@@ -6,20 +6,20 @@ public class ArraysInArrayForeach {
         int k = 0;
         int sum = 0;
 
-        for (int i = 0; i < 3; i++){
-            for (int j = 0; j < 4; j++){
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 4; j++) {
                 numbs[i][j] = k++;
             }
         }
 
-        for (int[] num :numbs) {
-            for (int number:num) {
-                System.out.print(number+"\t");
+        for (int[] num : numbs) {
+            for (int number : num) {
+                System.out.print(number + "\t");
                 sum += number;
             }
             System.out.println();
         }
 
-        System.out.println("Сумма всех чисел = "+sum);
+        System.out.println("Сумма всех чисел = " + sum);
     }
 }

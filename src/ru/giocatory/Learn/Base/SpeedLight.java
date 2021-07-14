@@ -12,6 +12,6 @@ public class SpeedLight {
         seconds = days * 24 * 60 * 60;
         distance = lightSpeed * seconds;
 
-        System.out.println("За "+days+" дней, свет пройдет около "+distance+" миль.");
+        System.out.println("За " + days + " дней, свет пройдет около " + distance + " миль.");
     }
 }

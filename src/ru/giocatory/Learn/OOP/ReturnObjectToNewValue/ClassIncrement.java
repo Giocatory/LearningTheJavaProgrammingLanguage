@@ -3,7 +3,7 @@ package ru.giocatory.Learn.OOP.ReturnObjectToNewValue;
 public class ClassIncrement {
     private final int a;
 
-    ClassIncrement (int firstValue){
+    ClassIncrement(int firstValue) {
         a = firstValue;
     }
 
@@ -11,7 +11,7 @@ public class ClassIncrement {
         return a;
     }
 
-    ClassIncrement incrementByTen(){
-        return new ClassIncrement(getA()+10);
+    ClassIncrement incrementByTen() {
+        return new ClassIncrement(getA() + 10);
     }
 }

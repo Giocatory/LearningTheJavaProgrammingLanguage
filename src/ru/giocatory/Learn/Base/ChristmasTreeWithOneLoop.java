@@ -8,10 +8,10 @@ public class ChristmasTreeWithOneLoop {
         while (i < max) {
             String space = "";
             String star = "";
-            for (int j = 0; j < max - i; j++){
+            for (int j = 0; j < max - i; j++) {
                 space += " ";
             }
-            for (int k = 0; k < 2 * i + 1; k++){
+            for (int k = 0; k < 2 * i + 1; k++) {
                 star += "*";
             }
             System.out.println(space + star);

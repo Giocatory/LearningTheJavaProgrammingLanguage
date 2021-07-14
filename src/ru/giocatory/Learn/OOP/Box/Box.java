@@ -1,29 +1,32 @@
 package ru.giocatory.Learn.OOP.Box;
 
 public class Box {
+    public static int howManyBoxesAreCreated;
     private double width;
     private double height;
     private double depth;
-    public static int howManyBoxesAreCreated;
 
     // constructor
-    Box (){
+    Box() {
         width = 0;
         height = 0;
         depth = 0;
         howManyBoxesAreCreated++;
     }
-    Box (double width, double height, double depth){
+
+    Box(double width, double height, double depth) {
         this.width = width;
         this.height = height;
         this.depth = depth;
         howManyBoxesAreCreated++;
     }
+
     // create square
-    Box (double side){
+    Box(double side) {
         width = height = depth = side;
         howManyBoxesAreCreated++;
     }
+
     // GETTERS_AND_SETTERS
     public double getWidth() {
         return width;
@@ -48,8 +51,9 @@ public class Box {
     public void setHeight(double height) {
         this.height = height;
     }
+
     // methods
-    public double VolumeValue (){
+    public double VolumeValue() {
         return width * height * depth;
     }
 }
